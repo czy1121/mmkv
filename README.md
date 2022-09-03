@@ -7,7 +7,18 @@
 - 支持可空对象类型：字符串，字符串集合，字节数组
 - 支持Parcelable类型
 
-## Usage
+## 引入
+
+``` groovy
+repositories {
+    maven { url "https://gitee.com/ezy/repo/raw/cosmo/"}
+}
+dependencies {
+    implementation "me.reezy.cosmo:mmkv:0.7.0"
+}
+```
+
+## 使用
 
 委托属性添加在实现了 MMKVOwner 的类上，委托属性的值存储在从 MMKVOwner 获取的 MMKV 实例中
 
