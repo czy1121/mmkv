@@ -2,5 +2,5 @@
 apply from: "$buildGradlePath/build-library-android.gradle"
 
 dependencies {
-    api 'com.tencent:mmkv:1.2.14'
+    api 'com.tencent:mmkv:1.2.15'
 }
